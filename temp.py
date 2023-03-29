@@ -4,7 +4,7 @@ import matplotlib.pyplot as mtp
 import pandas as pd  
 
 #importing datasets  
-data_set = pd.read_csv('user_data.csv')  
+data_set = pd.read_csv('Dataset1.csv')  
 
 #Extracting Independent and dependent Variable  
 x = data_set.iloc[:, [2,3]].values  
